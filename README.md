@@ -36,7 +36,7 @@ Training: Train with early stopping, batch size (e.g., 32), and suitable epochs.
 ### Name: HYCINTH D
 ### Register Number: 212223240055
 
-python
+```python
 class PeopleClassifier(nn.Module):
     def __init__(self, input_size):
         super(PeopleClassifier, self).__init__()
@@ -52,9 +52,8 @@ class PeopleClassifier(nn.Module):
         #x = F.relu(self.fc3(x)) # Adding this line to use fc3 and connect to fc4 properly
         x = self.fc4(x) # Now fc4 receives input of size 16 from fc2
         return x
-
-
-python
+```
+```python
 def train_model(model, train_loader, criterion, optimizer, epochs):
     model.train()
     for epoch in range(epochs):
@@ -67,7 +66,7 @@ def train_model(model, train_loader, criterion, optimizer, epochs):
 
     if (epoch + 1) % 10 == 0:
         print(f'Epoch [{epoch+1}/{epochs}], Loss: {loss.item():.4f}')
-
+```
 ## Dataset Information
 ![Screenshot 2025-03-20 174045](https://github.com/user-attachments/assets/5b98933e-473f-4f36-a075-0956c4b684d0)
 
