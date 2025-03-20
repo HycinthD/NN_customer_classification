@@ -53,6 +53,8 @@ class PeopleClassifier(nn.Module):
         x = self.fc4(x) # Now fc4 receives input of size 16 from fc2
         return x
 ```
+
+
 ```python
 def train_model(model, train_loader, criterion, optimizer, epochs):
     model.train()
@@ -66,6 +68,7 @@ def train_model(model, train_loader, criterion, optimizer, epochs):
 
     if (epoch + 1) % 10 == 0:
         print(f'Epoch [{epoch+1}/{epochs}], Loss: {loss.item():.4f}')
+
 ```
 ## Dataset Information
 ![Screenshot 2025-03-20 174045](https://github.com/user-attachments/assets/5b98933e-473f-4f36-a075-0956c4b684d0)
