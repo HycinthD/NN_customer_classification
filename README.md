@@ -14,8 +14,7 @@ You are required to help the manager to predict the right group of the new custo
 
 ## Neural Network Model
 
-![Screenshot 2025-03-20 093924](https://github.com/user-attachments/assets/c445f0af-f9db-450c-a779-c2c5e3a9654f)
-
+![Screenshot 2025-03-20 093924](https://github.com/user-attachments/assets/aa74ac8f-7a92-4178-983c-e8a028bbeb34)
 
 ## DESIGN STEPS
 
@@ -70,21 +69,20 @@ def train_model(model, train_loader, criterion, optimizer, epochs):
         print(f'Epoch [{epoch+1}/{epochs}], Loss: {loss.item():.4f}')
 
 ## Dataset Information
-![image](https://github.com/user-attachments/assets/0dd5dda5-5ab5-4d0d-8b14-ffaa8eab6d20)
+![Screenshot 2025-03-20 174045](https://github.com/user-attachments/assets/5b98933e-473f-4f36-a075-0956c4b684d0)
 
 ## OUTPUT
 
 ### Confusion Matrix
-![image](https://github.com/user-attachments/assets/fbb72cdd-d205-4286-8c93-efe60508c651)
+![Screenshot 2025-03-20 174142](https://github.com/user-attachments/assets/f1c2bd91-c8b4-41b9-b1e9-552bb2d003fa)
 
 
 ### Classification Report
-![Screenshot 2025-03-20 174239](https://github.com/user-attachments/assets/55c26df7-afe4-40fb-963c-8cf8d9a574f3)
+![Screenshot 2025-03-20 174239](https://github.com/user-attachments/assets/beaffcd2-7e70-41da-a544-f5cf37dfb39c)
 
 
 ### New Sample Data Prediction
-![image](https://github.com/user-attachments/assets/e98249fa-acce-4a74-9daa-ce97e9f771b5)
-
+![Screenshot 2025-03-20 174302](https://github.com/user-attachments/assets/9c50a3c8-b349-4a9a-b7b7-d1bd1089d31d)
 
 ## RESULT
 The development of a neural network classification model for the given dataset is executed successfully.
